@@ -613,10 +613,10 @@ if __name__ == "__main__":
     argparser.add_argument("--test-split", type=float, default=0.4)
 
     # Model Settings:
-    # argparser.add_argument("--model-name", type=str,
-    #                        default="distilbert-base-cased")
     argparser.add_argument("--model-name", type=str,
-                           default="UFNLP/gatortron-base")
+                           default="distilbert-base-cased")
+    # argparser.add_argument("--model-name", type=str,
+    #                        default="UFNLP/gatortron-base")
 
     argparser.add_argument("--view1-name", type=str, default="findings")
     argparser.add_argument("--view2-name", type=str, default="impressions")
