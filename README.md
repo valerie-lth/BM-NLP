@@ -56,8 +56,8 @@ Command:
 This will generate the model predicted probabilities. Then refer to   analyse_ir2.ipynb` to calculate N, n , y1, yhat1, tp
  -  Total number of reports/pts per bin
  -  Sampled reports/pts per bin
- -  # human labels Y=1 in the sampled subset
- -  # model predicted=1 in the sampled subset
- -  # TP (Y=1 AND predicted=1) in the sampled subset
+ -  \# human labels Y=1 in the sampled subset
+ -  \# model predicted=1 in the sampled subset
+ -  \# TP (Y=1 AND predicted=1) in the sampled subset
 
 Calculate the precision, recall, and F1 using `precision_recall_calc.ipynb`.
