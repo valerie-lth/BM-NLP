@@ -60,4 +60,4 @@ This will generate the model predicted probabilities. Then refer to   analyse_ir
  -  \# model predicted=1 in the sampled subset
  -  \# TP (Y=1 AND predicted=1) in the sampled subset
 
-Calculate the precision, recall, and F1 using `precision_recall_calc.ipynb`.
+Calculate the precision, recall, and F1 using `precision_recall_calc.ipynb`. There are two algorithms for the evaluation. Choose the first one for ON and BC because their stratified sampling are based on probability bins, use the second one for AB because we sampled by reports per patient.
